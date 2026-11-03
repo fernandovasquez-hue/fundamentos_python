@@ -29,3 +29,14 @@ print(f'Cantidad de estudiante que quedarian sin equipo: {estudiantes % equipos}
 base = 2
 exponente = 5
 print(f'Resultado de 2 elevado a 5: {base ** exponente}')
+
+#-------------------EJERCICIO 15----------------------------
+nota1 = 6.0
+nota2 = 5.0
+nota3 = 7.0
+promedio = (nota1 + nota2 + nota3) / 3
+print(f'''Nota numero uno: {nota1}
+Nota numero dos: {nota2}
+Nota numero tres: {nota3}
+Pomedio final: {promedio}''')
+
