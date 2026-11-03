@@ -7,28 +7,28 @@ print(type(nombre))
 
 #--------------------EJERCICIO 3-------------------------------
 pelicula = input('Ingrese nombre de la pelicula:')
-videojuego = 'Marvel VS Capcom: CLASH OF SUPER HEROES'
-asignatura = 'Educaión Ciudadana'
+videojuego = input('Ingrese su videojuego favorito:')
+asignatura = input('Ingrese su asignatura meos preferida:')
 
 print(pelicula)
 print(videojuego)
 print(type(asignatura))
 
 #----------------------------EJERCICIO 4-------------------------
-edad = 16
-hermanos = 5
-año_actual = 2026
+edad = int(input('Ingrese su edad:'))
+hermanos = int(input('Ingrese la cantidad de hermanos que tiene:'))
+año_actual = int(input('Ingrese el año actual:'))
 
 print(f'Edad actual: {edad}')
 print(f'Cantidad de hermanos: {hermanos}')
 print(type(año_actual))
 
 #----------------------------EJERCICIO 5-------------------------
-precio_producto = 1999.23
-temperatura = 19.5
-promedio = 6.9
+precio = float(input('Ingrese precio del producto(debe contener un decimal y se coloca con un "."):'))
+temperatura = float(input('Ingrese la temperatura (minimo con un decimal):'))
+promedio = float(input('Ingrese su promedio:'))
 
-print(f'Precio de un producto: {precio_producto}')
+print(f'Precio de un producto: {precio}')
 print(f'Temperatura del dia de hoy: {temperatura}')
 print(type(promedio))
 
@@ -42,9 +42,9 @@ print(f'Has terminado la tarea: {terminar_tarea}')
 print(type(clases_manana))
 
 #---------------------------EJERCICIO 7---------------------------
-nombre_producto = 'bateria'
-cantidad_partes = 8
-precio_bateria = 569999.99
+nombre_producto = input('Ingresar el nombre del producto:')
+cantidad_partes = int(input('Ingresar cantidad o las partes de su producto:'))
+precio_producto = float(input('Ingresar precio del producto(minimo con un decimal):'))
 disponibilidad = True
 print(f'''Nombre del producto: {nombre_producto}
 Tipo de el valor del nombre: {type(nombre_producto)}
